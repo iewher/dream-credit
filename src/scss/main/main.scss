@@ -1,0 +1,208 @@
+.main {
+  height: auto;
+  width: 100vw;
+}
+
+.contact-us {
+  height: 266px;
+  width: 100vw;
+  background-image: url("../../svg/contact-us-banner.svg");
+  display: flex;
+  justify-content: center;
+
+  &__text {
+    width: 1440px;
+
+    .url {
+      display: flex;
+      font-size: 14px;
+      gap: 10px;
+
+      p {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-top: 40px;
+
+      h1 {
+        font-size: 27px;
+      }
+
+      p {
+        width: 538px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.write-us {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 0;
+
+    &__header {
+      color: #009ee8;
+      margin-bottom: 50px;
+
+      h2 {
+        font-weight: bold;
+      }
+    }
+
+    &__inputs {
+      display: flex;
+      gap: 60px;
+
+      .textarea {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .input {
+          width: 706px;
+          display: flex;
+          justify-content: space-between;
+
+          label {
+            font-size: 18px;
+            margin-top: 5px;
+
+            span {
+              color: #ef5c53;
+            }
+          }
+
+          input {
+            width: 546px;
+            height: 32px;
+            border: 1px solid #b3b3b3;
+          }
+
+          .questions {
+            height: 140px;
+          }
+        }
+      }
+
+      .about {
+        display: flex;
+        align-items: center;
+        max-width: 594px;
+        line-height: 20.7px;
+        font-size: 18px;
+        color: #4d4d4d;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.mail-adress {
+  width: 100vw;
+  height: 160px;
+  background-color: #cfefff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  &__image {
+    img {
+      height: 104px;
+      width: 104px;
+    }
+  }
+
+  &__text {
+    h2 {
+      color: #009ee8;
+      font-size: 22px;
+      line-height: 25.3px;
+    }
+
+    p {
+      color: #4d4d4d;
+      font-size: 16px;
+      line-height: 18.4px;
+    }
+  }
+}
+
+.contact-banks {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+
+    .container__header {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+
+  .bank-image {
+    height: 110px;
+    width: 110px;
+    margin-right: 10px;
+  }
+
+  .bracket {
+    height: 79px;
+    margin-right: 10px;
+  }
+
+  &-text {
+    h2 {
+      font-size: 16px;
+      color: #009ee8;
+      line-height: 18px;
+      max-width: 122px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 18px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

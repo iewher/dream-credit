@@ -1,4 +1,5 @@
 import React from "react";
+import "../../scss/main/main.scss";
 import ContactUs from "./main-components/contact-us";
 import WriteUs from "./main-components/write-us";
 import MailAdress from "./main-components/mail-adress";

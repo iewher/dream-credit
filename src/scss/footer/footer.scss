@@ -1,0 +1,67 @@
+.footer {
+  background-image: url("../../svg/footer.svg");
+  width: 100%;
+  height: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+
+  &-container {
+    width: 1440px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  &__links {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 30px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 700;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__copy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  &__follow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      height: 26px;
+      width: 26px;
+    }
+  }
+
+  &__text {
+    p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
