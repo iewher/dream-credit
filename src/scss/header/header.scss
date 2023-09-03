@@ -15,6 +15,7 @@
       background: inherit;
       border: none;
       font-weight: bold;
+      cursor: pointer;
 
       &:hover {
         text-decoration: underline;
@@ -28,11 +29,14 @@
       input {
         width: 266px;
         border: 1px solid #b3b3b3;
+        border-radius: none;
       }
 
       button {
         background-color: #009ee8;
         width: 32px;
+        border: none;
+        border-radius: none;
       }
     }
   }

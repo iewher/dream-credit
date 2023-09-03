@@ -4,7 +4,7 @@ import logo from "../../svg/footer-logo.svg";
 import facebook from "../../svg/facebook.svg";
 import twitter from "../../svg/twitter.svg";
 import google from "../../svg/google.svg";
-// import line from "../../svg/line.svg";
+import line from "../../svg/line.svg";
 
 export default function Footer() {
   return (
@@ -32,6 +32,7 @@ export default function Footer() {
             <img src={google} alt="" />
           </div>
         </div>
+        <img src={line} className="line"/>
         <div className="footer__text">
           <p>
             *See the credit card's terms and conditions on the online

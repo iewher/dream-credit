@@ -51,14 +51,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 10px;
 
     img {
       height: 26px;
       width: 26px;
+      cursor: pointer;
     }
   }
 
   &__text {
+    margin-top: 20px;
+
     p {
       font-size: 14px;
       line-height: 16px;
