@@ -11,7 +11,7 @@ export default function ContactUs() {
         </div>
         <div className="contact">
           <h1>CONTACT US</h1>
-          <img src={bracket} />
+          <img src={bracket} alt="bracket" />
           <p>
             We welcome your comments, questions, or any request you may have! If
             you would like to contact our staff, please complete the form below.

@@ -27,12 +27,12 @@ export default function Footer() {
           </p>
           <div className="footer__follow">
             <h3>FOLLOW US:</h3>
-            <img src={facebook} alt="" />
-            <img src={twitter} alt="" />
-            <img src={google} alt="" />
+            <img src={facebook} alt="facebook" />
+            <img src={twitter} alt="twitter" />
+            <img src={google} alt="google" />
           </div>
         </div>
-        <img src={line} className="line"/>
+        <img src={line} className="line" />
         <div className="footer__text">
           <p>
             *See the credit card's terms and conditions on the online

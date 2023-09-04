@@ -71,9 +71,11 @@
       gap: 60px;
 
       .textarea {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
 
         .input {
           width: 706px;
@@ -90,8 +92,8 @@
           }
 
           .dropdown {
-            position: absolute;
-            left: 823px;
+            margin-left: -115px;
+            position: relative;
             height: 35px;
             width: 35px;
             display: flex;
@@ -100,6 +102,7 @@
             border: none;
             background-color: #009ee8;
             color: white;
+            cursor: pointer;
           }
 
           .dropdown-list {
@@ -116,7 +119,6 @@
               display: flex;
               align-items: center;
               z-index: 2;
-
             }
           }
 
