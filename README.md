@@ -36,7 +36,7 @@ export default keys;
 
 ### Главная
 
-<image src="public/forgithub/forgithub1.jpg" height="450" width="800">
+<image src="public/forgithub/forgithub1.png" height="700" width="550">
 
 </div>
 
