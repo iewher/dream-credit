@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 16px;
 
   &__buttons {
     display: flex;
@@ -40,8 +41,31 @@
       }
     }
   }
+}
 
-  @media (max-width: 1440px) {
-    padding: 0 22px;
+@media (max-width: 1000px) {
+  .header__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .links {
+    display: none;
+  }
+
+  .header {
+    .input {
+      input {
+        display: none;
+      }
+    }
   }
 }

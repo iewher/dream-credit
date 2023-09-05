@@ -10,8 +10,10 @@ export default function Header() {
         <img src={logo} alt="logo" />
       </div>
       <div className="header__buttons">
-        <a>PREPAID & CREDIT OFFERS</a>
-        <a>RESOURCES</a>
+        <div className="links">
+          <a>PREPAID & CREDIT OFFERS</a>
+          <a>RESOURCES</a>
+        </div>
         <div className="input">
           <input type="text" />
           <button>

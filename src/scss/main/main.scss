@@ -37,8 +37,9 @@
       }
 
       p {
-        width: 538px;
+        max-width: 538px;
         font-size: 18px;
+        word-wrap: break-word;
       }
     }
   }
@@ -273,4 +274,45 @@
   width: 100%;
   position: absolute;
   left: 0;
+}
+
+@media (max-width: 1000px) {
+  .form__inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-banks__container {
+    .container__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-banks__container {
+    .container__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .form__inputs {
+    .textarea {
+      form {
+        .input {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
