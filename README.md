@@ -1,3 +1,45 @@
+#  Тестовое задание в компанию "Модерн"
+
+Задание написано на JavaScript с использованием React
+
+Стили написаны на SCSS
+
+## Использованные библиотеки
+  
+1. MailJs - для отправки сообщений с формы
+
+## Скрытые файлы
+
+В проекте скрыт файл keys.jsx, который используется в компоненте email-contact-form, его структура
+
+```
+const keys = {
+    SERVICE_ID: 'вставлен service_id',
+    TEMPLATE_ID: 'вставлен template_id',
+    API_PUBLIC_KEY: 'вставлен public_key',
+}
+
+export default keys;
+```
+
+Данные можно найти на https://dashboard.emailjs.com/admin
+
+## Установка проекта
+
+Обязательно после клонирования репозитория прописать `npm install`
+
+## Обзор
+
+Изображения задания с компьютера и телефона
+
+<div align="center">
+
+### Главная
+
+<image src="public/forgithub/forgithub1.jpg" height="450" width="800">
+
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
